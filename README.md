@@ -1,3 +1,6 @@
+#rp-lockbox - LPI fork
+This is a slightly modified version of lockbox software for red pitaya developed at MPQ. Two new commands are added to the SCPI interface: PIDSaveConf and PIDLoadConf, which save current configuration of PIDs into pitaya's memory and restore it, respectively. Also it automatically loads the configuration at startup. So now it is possible to configure it once and than run a PID automatically just by powering the device up.
+
 # rp-lockbox
 rp-lockbox is a firmware for the [Red Pitaya](https://www.redpitaya.com/) FPGA board which turns it
 into a feedback controller (lockbox) optimized for optics experiments.
